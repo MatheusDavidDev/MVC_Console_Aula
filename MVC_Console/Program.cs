@@ -7,8 +7,12 @@ namespace MVC_Console
     {
         static void Main(string[] args)
         {
-            ProdutoController produtos = new ProdutoController();
-            produtos.Buscar("200,56");
+            //Instanciamos nosso Controller
+            ProdutoController produtoController = new ProdutoController();
+
+
+            produtoController.Cadastrar();
+            produtoController.MostrarProdutos();
         }
     }
 }

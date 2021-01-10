@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console\\MVC_Console.csproj": {}
+    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console_Aula\\MVC_Console\\MVC_Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console\\MVC_Console.csproj": {
+    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console_Aula\\MVC_Console\\MVC_Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console\\MVC_Console.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console_Aula\\MVC_Console\\MVC_Console.csproj",
         "projectName": "MVC_Console",
-        "projectPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console\\MVC_Console.csproj",
+        "projectPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console_Aula\\MVC_Console\\MVC_Console.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\MVC_Console_Aula\\MVC_Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"

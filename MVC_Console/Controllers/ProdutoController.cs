@@ -6,21 +6,19 @@ namespace MVC_Console.Controllers
 {
     public class ProdutoController
     {
-        Produto produtoModel1 = new Produto();
+        Produto produto = new Produto();
 
         ProdutoView produtoView = new ProdutoView();
 
-        public void Listar()
-        {
-            List<Produto> lista = produtoModel1.Ler();
-            produtoView.MostrarNoConsole(lista);
-        }
+       public void MostrarProdutos()
+       {
+           List<Produto> todos = produto.Ler();
+           produtoView.ListarTodos(todos);
+       }
 
-        public void Buscar(string termo)
-        {
-            List<Produto> lista = produtoModel1.Ler().FindAll(x => x.Preco == float.Parse(termo));
-            produtoView.MostrarNoConsole(lista); 
-        }
-        
+       public void Cadastrar()
+       {
+           produto.Inserir( produtoView.CadastrarProduto() );
+       }
     }
 }

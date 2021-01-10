@@ -19,10 +19,14 @@ namespace MVC_Console.Models
         {
             
             string pasta = PATH.Split('/')[0];
+
+            // Verificamos se a pasta nao existe e  criamos nesta condicao
             if (!Directory.Exists(pasta))
             {
                 Directory.CreateDirectory(pasta);
             }
+
+            // Verificamos se o arquivo Produto.csv existe, caso nao vamos cria-lo
 
             if (!File.Exists(PATH))
             {
@@ -34,26 +38,41 @@ namespace MVC_Console.Models
         {
             
             List<Produto> produtos = new List<Produto>();
+
+            //Pegar as informacoes do csv
             string[] linhas = File.ReadAllLines(PATH);
 
-            foreach (var linha in linhas)
+            foreach (string item in linhas)
             {
-                string[] dados = linha.Split(";");
+                // Separar atributos pelo ;
+                string[] atributos = item.Split(";");
+
+                // Criamos um produto vazio para poder colocar na lista de produtos
                 Produto prod = new Produto();
-                prod.Codigo = Int32.Parse( SepararDado(dados[0] ));
-                prod.Nome = SepararDado(dados[1]);
-                prod.Preco = float.Parse( SepararDado(dados[2]));
+
+                prod.Codigo  = int.Parse( atributos[0] );
+                prod.Nome    = atributos[1];
+                prod.Preco   = float.Parse( atributos[2] );
 
                 produtos.Add(prod);
             }
 
-            produtos = produtos.OrderBy(z => z.Codigo).ToList();
             return produtos;
         }
+        public void Inserir(Produto p)
+        {
+            // Preparamos um array de String para metodo AppendAllLines
+            string[] linhas = { PrepararLinhasCSV(p) };
 
-        private string SepararDado(string txt){
-            return txt.Split('=')[1];
+            //Inserimos o arraY de linhas no arquivo CSV
+            File.AppendAllLines(PATH, linhas);
         }
+        public string PrepararLinhasCSV(Produto prod)
+        {
+            // Preparamos a linja para o formato do CSV
+            return $"{prod.Codigo};{prod.Nome};{prod.Preco}";
+        }
+
         
         
         

@@ -11,3 +11,16 @@ C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console\obj\Debug\netcoreapp3.1\MV
 C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.dll
 C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.pdb
 C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.genruntimeconfig.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\bin\Debug\netcoreapp3.1\MVC_Console.exe
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\bin\Debug\netcoreapp3.1\MVC_Console.deps.json
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\bin\Debug\netcoreapp3.1\MVC_Console.runtimeconfig.json
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\bin\Debug\netcoreapp3.1\MVC_Console.runtimeconfig.dev.json
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\bin\Debug\netcoreapp3.1\MVC_Console.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\bin\Debug\netcoreapp3.1\MVC_Console.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\MVC_Console_Aula\MVC_Console\obj\Debug\netcoreapp3.1\MVC_Console.genruntimeconfig.cache
